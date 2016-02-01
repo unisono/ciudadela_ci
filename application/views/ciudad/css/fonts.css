@@ -1,0 +1,126 @@
+/* _________________________________________________
+
+320 and Up boilerplate extension
+Andy Clarke http://about.me/malarkey
+Version: 2
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1 ROOT
+2 HEADINGS
+3 TYPOGRAPHY
+4 LINKS
+5 FIGURES & IMAGES
+6 TABLES
+7 FORMS
+8 BANNER
+9 NAVIGATION
+10 CONTENT
+11 MAIN
+12 COMPLEMENTARY
+13 CONTENTINFO
+14 GLOBAL OBJECTS
+15 VENDOR-SPECIFIC 
+16 MODERNIZR
+17 TEMPLATE SPECIFICS
+
+COLOURS 
+@font-face {
+  font-family: "hola";
+  src: url("fonts/HelveticaLt.otf") format("opentype");
+  
+}
+*/
+
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('fonts/helvetica__-webfont.eot');
+    src: url('fonts/helvetica__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvetica__-webfont.woff') format('woff'),
+         url('fonts/helvetica__-webfont.ttf') format('truetype'),
+         url('fonts/helvetica__-webfont.svg#HelveticaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('fonts/helveticalt-webfont.eot');
+    src: url('fonts/helveticalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticalt-webfont.woff') format('woff'),
+         url('fonts/helveticalt-webfont.ttf') format('truetype'),
+         url('fonts/helveticalt-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ @font-face {
+    font-family: 'HelveticaCondensedBlack';
+    src: url('fonts/helveticacdblk-webfont.eot');
+    src: url('fonts/helveticacdblk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticacdblk-webfont.woff') format('woff'),
+         url('fonts/helveticacdblk-webfont.ttf') format('truetype'),
+         url('fonts/helveticacdblk-webfont.svg#HelveticaCondensedBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: Georgia; color: #333333;}
+
+
+#pagina .banner h2 { font-family: Georgia; color: #f1f1f1;  }
+#col_2 .banner h2 { font-family: Georgia; color: #333;  width: 300px; clear: both;}
+
+
+
+cite{ font-size: 18px; 
+      font-family: Georgia; font-style: italic; 
+      line-height: 1.5em;
+          
+      }
+
+ .banner h2{ font-size: 24px;}  
+ .secondary h4{ font-size: 14px; ;
+   }
+   dd{ font-size: 12px !important; line-height: 1.3em;}  
+   dt span{ color:#666;}
+p{
+    
+  font-family:"HelveticaRegular";
+  line-height: 1.5em;
+  color:#666;
+ 
+  
+}
+.primary > strong{ 
+                  color: #999;
+                  font-family:Georgia;
+                  font-size: 14px;
+                  letter-spacing: 0.2em;
+                  word-spacing: 0.2em;
+                  font-variant:small-caps;
+                      
+                 
+          
+}
+.banner  span{ font-size: 11px;}
+header > div {  font-family:"HelveticaRegular"; font-size:14px;}
+header a, select {
+    font-family: "HelveticaRegular"; 
+    color:#e4dcc7 !important;
+     margin-right: 16px;
+     font-size: 16px;
+     
+     
+    
+}
+
+dt a,dd a { color: #bb0410 !important; font-size: 13px; font-family:arial;

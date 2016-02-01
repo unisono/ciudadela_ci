@@ -1,0 +1,31 @@
+#AddHandler application/x-httpd-php52s .php .php5 .php4 .php3
+
+AddDefaultCharset utf-8
+
+Options FollowSymLinks
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+
+
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+
+
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+
+</IfModule> 
+
+
+
+<IfModule !mod_rewrite.c>
+
+    ErrorDocument 404 /index.php
+
+</IfModule>
